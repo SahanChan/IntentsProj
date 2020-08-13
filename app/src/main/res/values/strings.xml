@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">IntentsProj</string>
+    <string name="activity2Name">Second Activity</string>
+
     <string name="number1">Number 1</string>
     <string name="number2">Number 2</string>
     <string name="submit">OK</string>
+    <string name="multiply">X</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="divide">/</string>
+    <string name="result">TextView</string>
+    <string name="select_the_operation">Select the Operation</string>
 
 
 </resources>
