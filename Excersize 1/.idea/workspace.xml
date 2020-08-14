@@ -11,13 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f89e612-2a95-4a0e-8f9c-6b6a35212e52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/blackVoila-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/FirstActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/FirstActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/FirstActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/SecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/SecondActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +39,21 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1g2RjmrtwoYFn47lZcFxXwaLrC1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,6 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -135,10 +149,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597322920378" />
-    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceFileDialog" timestamp="1597321552409">
+    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceFileDialog" timestamp="1597374083964">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597321552409" />
+    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597374083964" />
     <state x="809" y="360" width="302" height="391" key="AndroidCreateXmlResourceDialog" timestamp="1597320712523">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -147,22 +161,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="738" y="311" width="424" height="485" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597322654280" />
-    <state width="1874" height="204" key="GridCell.Tab.0.bottom" timestamp="1597319383639">
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1597375893509">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="204" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597319383639" />
-    <state width="1874" height="204" key="GridCell.Tab.0.center" timestamp="1597319383636">
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893509" />
+    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1597375893508">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="204" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597319383636" />
-    <state width="1874" height="204" key="GridCell.Tab.0.left" timestamp="1597319383634">
+    <state width="1874" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
+    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1597375893508">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="204" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597319383634" />
-    <state width="1874" height="204" key="GridCell.Tab.0.right" timestamp="1597319383638">
+    <state width="1874" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
+    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1597375893508">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="204" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597319383638" />
+    <state width="1874" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
     <state x="143" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1597322105763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

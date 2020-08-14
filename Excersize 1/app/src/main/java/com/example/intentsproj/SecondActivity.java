@@ -3,10 +3,14 @@ package com.example.intentsproj;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -33,6 +37,13 @@ public class SecondActivity extends AppCompatActivity {
         number2.setText(n2);
 
 
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.custom_toast, (ViewGroup)findViewById(R.id.toast_layout));
+        final Toast toast2 = new Toast(getApplicationContext());
+        toast2.setGravity(Gravity.CENTER_HORIZONTAL,0,1000);
+        toast2.setDuration(Toast.LENGTH_SHORT);
+        toast2.setView(layout);
+
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,7 +53,7 @@ public class SecondActivity extends AppCompatActivity {
                 ans = Double.parseDouble(n1) + Double.parseDouble(n2);
                 String answer = n1 + " + " + n2 + " = " + Double.toString(ans);
                 result.setText(answer);
-
+                toast2.show();
 
             }
         });
@@ -57,7 +68,7 @@ public class SecondActivity extends AppCompatActivity {
                 ans =  Double.parseDouble(n1) -  Double.parseDouble(n2);
                 String answer = n1 + " - " + n2 + " = " + Double.toString(ans);
                 result.setText(answer);
-
+                toast2.show();
             }
         });
 
@@ -71,7 +82,7 @@ public class SecondActivity extends AppCompatActivity {
                 ans =  Double.parseDouble(n1) *  Double.parseDouble(n2);
                 String answer = n1 + " X " + n2 + " = " + Double.toString(ans);
                 result.setText(answer);
-
+                toast2.show();
 
             }
         });
@@ -86,7 +97,7 @@ public class SecondActivity extends AppCompatActivity {
                 ans =  Double.parseDouble(n1) /  Double.parseDouble(n2);
                 String answer = n1 + " / " + n2 + " = " + Double.toString(ans);
                 result.setText(answer);
-
+                toast2.show();
             }
         });
 

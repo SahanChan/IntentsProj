@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.icu.lang.UCharacter;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -25,6 +27,9 @@ public class FirstActivity extends AppCompatActivity {
         button = (Button)findViewById(R.id.button);
         number1 = findViewById(R.id.no1);
         number2 = findViewById(R.id.no2);
+
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +41,7 @@ public class FirstActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(getApplicationContext(), toastMessage, Toast.LENGTH_LONG);
                 toast.setGravity(Gravity.TOP,Gravity.CENTER,200);
                 toast.show();
+
                 startActivity(intent);
                 finish();
             }
