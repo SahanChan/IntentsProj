@@ -11,15 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f89e612-2a95-4a0e-8f9c-6b6a35212e52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/FirstActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/FirstActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/SecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/intentsproj/SecondActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,22 +155,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="738" y="311" width="424" height="485" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597322654280" />
-    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1597375893509">
+    <state width="1874" height="66" key="GridCell.Tab.0.bottom" timestamp="1597376844300">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893509" />
-    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1597375893508">
+    <state width="1874" height="66" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597376844300" />
+    <state width="1874" height="66" key="GridCell.Tab.0.center" timestamp="1597376844297">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
-    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1597375893508">
+    <state width="1874" height="66" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597376844297" />
+    <state width="1874" height="66" key="GridCell.Tab.0.left" timestamp="1597376844295">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
-    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1597375893508">
+    <state width="1874" height="66" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597376844295" />
+    <state width="1874" height="66" key="GridCell.Tab.0.right" timestamp="1597376844299">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597375893508" />
+    <state width="1874" height="66" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597376844299" />
     <state x="143" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1597322105763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

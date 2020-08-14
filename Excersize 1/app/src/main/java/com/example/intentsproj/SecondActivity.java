@@ -18,6 +18,7 @@ public class SecondActivity extends AppCompatActivity {
     EditText number1,number2;
     String n1,n2;
     Button plus,minus,multiply,divide;
+    String errortoastMessage = "Please Enter Both Numbers";
     double ans;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,8 @@ public class SecondActivity extends AppCompatActivity {
         divide = (Button) findViewById(R.id.divide);
         n1 = getIntent().getExtras().getString("number1");
         n2 = getIntent().getExtras().getString("number2");
+
+
         number1.setText(n1);
         number2.setText(n2);
 
@@ -47,14 +50,12 @@ public class SecondActivity extends AppCompatActivity {
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                n1 = number1.getText().toString();
-                n2 = number2.getText().toString();
-
-                ans = Double.parseDouble(n1) + Double.parseDouble(n2);
-                String answer = n1 + " + " + n2 + " = " + Double.toString(ans);
-                result.setText(answer);
-                toast2.show();
-
+            n1 = number1.getText().toString();
+            n2 = number2.getText().toString();
+            ans = Double.parseDouble(n1) + Double.parseDouble(n2);
+            String answer = n1 + " + " + n2 + " = " + Double.toString(ans);
+            result.setText(answer);
+            toast2.show();
             }
         });
 
@@ -104,6 +105,12 @@ public class SecondActivity extends AppCompatActivity {
 
 
 
+    }
+
+    public void showErrorToastMessage(){
+        Toast errtoast = Toast.makeText(getApplicationContext(), errortoastMessage, Toast.LENGTH_LONG);
+        errtoast.setGravity(Gravity.TOP,Gravity.CENTER,200);
+        errtoast.show();
     }
 
 
